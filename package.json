@@ -1,0 +1,13 @@
+{
+  "name": "voice-call-tracker",
+  "version": "1.0.0",
+  "description": "Discord bot that logs voice channel join/leave events",
+  "main": "voice-call-tracker-bot.js",
+  "scripts": {
+    "start": "node voice-call-tracker-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
